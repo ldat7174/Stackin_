@@ -1,0 +1,105 @@
+.home-page {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 24px;
+  background-color: #f9f9f9;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00bfa5;
+}
+
+.home-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.home-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  background-color: #00bfa5;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.progress-bar {
+  margin-top: 16px;
+  height: 6px;
+  background: #ccc;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.bar {
+  width: 60%;
+  height: 100%;
+  background: white;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.feature-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 16px 24px;
+  border-radius: 8px;
+  text-align: center;
+  width: 180px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.feature-card:hover {
+  background-color: #00bfa5;
+  color: white;
+}
+
+.user-type {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.user-options {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.user-box {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 8px;
+  width: 120px;
+  font-weight: bold;
+}
+
+.captcha-notice {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 40px;
+}
