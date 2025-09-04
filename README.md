@@ -1,1 +1,1 @@
-# Stackin_
+# STACKIN_ Complete React App\n\nRun: `npm install` then `npm run dev`.\n
